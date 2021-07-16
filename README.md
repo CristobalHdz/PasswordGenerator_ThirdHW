@@ -1,4 +1,4 @@
- # 03 Jacascript
+ # 03 Javascript
 
 
 # Section 01: General Information
