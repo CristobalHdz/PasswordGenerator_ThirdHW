@@ -19,27 +19,27 @@ generateBtn.addEventListener("click", () => {
   // Input Rules
   //No checkbox & value  more than 128
   if ((lengthElement.value > 128) && (lowercaseElement.checked == false && uppercaseElement.checked == false && numberElement.checked == false && symbolElement.checked == false)) {
-    alert("Please select a character checkbox and a value of 128 or less")
+    alert("Please select at least 1 character checkbox and a length of 128 or less")
     return;
   };
   //No checkboxes & value less than 8
   if ((lengthElement.value < 8) && (lowercaseElement.checked == false && uppercaseElement.checked == false && numberElement.checked == false && symbolElement.checked == false)) {
-    alert("Please select a character checkbox and a value of 8 or more")
+    alert("Please select at least 1 character checkbox and a length of 8 or more")
     return;
   };
   //Value less than 8
   if (lengthElement.value < 8) {
-    alert("Please select a value of 8 or more")
+    alert("Please select at least 1 value of 8 or more")
     return;
   };
   //Value more than 128
   if (lengthElement.value > 128) {
-    alert("Please select a value of 128 or less")
+    alert("Please select at least 1 value of 128 or less")
     return;
   };
   //No checkboxes
   if (lowercaseElement.checked == false && uppercaseElement.checked == false && numberElement.checked == false && symbolElement.checked == false) {
-    alert("Please select a character checkbox")
+    alert("Please select at least 1 character checkbox")
     return;
   };
 
